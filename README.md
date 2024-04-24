@@ -16,7 +16,7 @@ Then run these:
 
 3. Set the environment variable `DEBUG` to `laundry:*`
 
-Bash: `export DEBUG=laundry:*`
+Bash: `export DEBUG=laundry:*`\
 Nushell: `$env.DEBUG = laundry:*`
 
 4. Run the project
