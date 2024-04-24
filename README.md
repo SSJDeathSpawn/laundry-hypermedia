@@ -14,5 +14,10 @@ Then run these:
 2. To make the tailwind.css file
 `npx tailwindcss -i ./public/stylesheets/tailwind.raw.css -o ./public/stylesheets/tailwind.css`
 
-3. Run the project
-`$env.DEBUG = laundry:*; npm run watch`
+3. Set the environment variable `DEBUG` to `laundry:*`
+
+Bash: `export DEBUG=laundry:*`
+Nushell: `$env.DEBUG = laundry:*`
+
+4. Run the project
+`npm run watch`
